@@ -91,6 +91,33 @@
   .tiktok     { background: #111111; }
   .instagram  { background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af, #515bd4); }
   .facebook   { background: #1877F2; }
+  .spotify    { background: #1DB954; }
+  .album {
+    margin-bottom: 24px;
+  }
+  .album-cover {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    display: block;
+    margin-bottom: 14px;
+  }
+  .album-badge {
+    display: inline-block;
+    background: var(--tango);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+  }
+  .album-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0 0 14px;
+  }
   .merch {
     background: var(--cream);
     color: var(--ink);
@@ -131,6 +158,16 @@
   <img class="logo" src="assets/logo.jpg" alt="The Wobbleknots logo">
   <h1>THE WOBBLEKNOTS</h1>
   <p class="tagline">Nursery rhymes, rocked out. 🎸</p>
+
+  <div class="album">
+    <span class="album-badge">🎉 NEW ALBUM OUT NOW</span>
+    <img class="album-cover" src="media/its-a-wobble-world-cover.png" alt="It's a Wobble World album cover — The Wobbleknots performing on the Wobble Treehouse stage">
+    <p class="album-title">It's a Wobble World — 12 punk rock anthems for kids</p>
+    <a class="link-btn spotify" href="https://distrokid.com/hyperfollow/thewobbleknots/its-a-wobble-world" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm4.6 14.4a.6.6 0 0 1-.85.2c-2.3-1.4-5.2-1.7-8.6-.95a.6.6 0 1 1-.27-1.17c3.7-.85 6.9-.48 9.5 1.08a.6.6 0 0 1 .22.84Zm1.2-2.7a.75.75 0 0 1-1.03.26c-2.65-1.6-6.68-2.08-9.8-1.14a.75.75 0 1 1-.43-1.44c3.58-1.08 8.02-.55 11.05 1.28a.75.75 0 0 1 .21 1.04Zm.1-2.82C14.6 9.1 9.5 8.9 6.5 9.8a.9.9 0 1 1-.5-1.72c3.46-1.03 9.1-.8 12.7 1.32a.9.9 0 0 1-.9 1.5Z"/></svg>
+      Listen Now
+    </a>
+  </div>
 
   <img class="hero" src="assets/hero.jpg" alt="Ziggy, Boom, Pluck, Sparkle, and Tango performing on the Wobble Treehouse stage">
 
